@@ -1,0 +1,85 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  flex-direction: column;
+}
+header{
+    background-color: black;
+}
+button.again {
+    height: 35px;
+    width: 100px;
+    margin: 5% auto auto 5%;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+header>.head>p{
+    margin: 5% 5% auto auto;
+    color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header>.middle>h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+header>.middle>.box{
+    height: 80px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    margin-bottom: -200px;
+    position: absolute;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.left>input{
+    width: 50px;
+    height: 30px;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+button.check{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.right>p.guess,.right>p.score,.right>p.high-score{
+    color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 30px;
+}
